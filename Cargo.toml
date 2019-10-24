@@ -5,6 +5,7 @@ authors = ["Alex G Rice <alex@ricegeo.dev>"]
 edition = "2018"
 license = "MIT"
 repository = "https://github.com/guidorice/random-geojson-points"
+description = "Generate GeoJSON FeatureCollection with random Point Features."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
