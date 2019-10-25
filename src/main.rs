@@ -1,3 +1,13 @@
+//! Generate a GeoJSON FeatureCollection with random Point Features.
+
+//! #### Example
+//! ```bash
+//! cargo install random-geojson-points
+//! random-geojson-points > test.geojson
+//! // now 100 random points are in test.geojson
+//! ```
+//! ![map preview](https://github.com/guidorice/random-geojson-points/raw/master/screenshot.png "Look all the random points")
+//!
 use geojson::{Feature, FeatureCollection, GeoJson, Geometry, Value};
 use rand::Rng;
 use std::vec::Vec;
