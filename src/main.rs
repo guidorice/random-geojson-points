@@ -1,5 +1,7 @@
 //! Generate a GeoJSON FeatureCollection with random Point Features.
-
+//!
+//! ![cicd badge](https://github.com/guidorice/random-geojson-points/workflows/Rust/badge.svg "CI/CD: Github Actions")
+//!
 //! #### Example
 //! ```bash
 //! cargo install random-geojson-points
